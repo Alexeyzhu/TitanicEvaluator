@@ -9,7 +9,7 @@ Project consist of 2 main parts:
 * The Java code that read the model from **lr.pmml** file, apply it to the test data **test.csv**, and upload the result
  to the **submission.csv** file. 
  
-I used LogisticRegression model from sklearn library in Python, wrap it into [PMMLPipeline](https://github.com/jpmml/sklearn2pmml) 
+I used LogisticRegression model from sklearn library in Python, wrapped it into [PMMLPipeline](https://github.com/jpmml/sklearn2pmml) 
 and transferred it to Java via [JPMML](https://github.com/jpmml/jpmml-sklearn) library.
 
 * Python part (*ModelTrain.py*)
@@ -70,4 +70,4 @@ and transferred it to Java via [JPMML](https://github.com/jpmml/jpmml-sklearn) l
 #### Run program
 
 * Run **ModelTrain.py** in PyCharm. It should create **lr.pmml** in modelTrain directory
-* Rum **Main.java** in IntellijIdea. It shoulf create **submission.csv** in root directory
+* Run **Main.java** in IntellijIdea. It shoulf create **submission.csv** in root directory
