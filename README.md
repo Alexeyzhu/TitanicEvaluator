@@ -52,11 +52,22 @@ and transferred it to Java via [JPMML](https://github.com/jpmml/jpmml-sklearn) l
 ```
 ### How to run?
 
-#### Install IDE
-You need to install 2 IDE:
-
+#### Prerequisites
+* [Python](https://www.python.org/downloads/)  3.6 and higher 
+* [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html)  8 and higher 
 * [PyCharm](https://www.jetbrains.com/pycharm/)
 * [IntellijIdea](https://www.jetbrains.com/idea/)
 
-#### Clone project
+#### Clone project and setup
 
+* Copy URL of repository -> Open IntellijIdea -> Get from Version Control -> Paste URL -> Open project
+* Open subfolder **src/main/java/evaluation/modelTrain** in Pycharm 
+* Open terminal in PyCharm and install **requirements.txt**
+```bash
+   pip install -r requirements.txt
+```
+
+#### Run program
+
+* Run **ModelTrain.py** in PyCharm. It should create **lr.pmml** in modelTrain directory
+* Rum **Main.java** in IntellijIdea. It shoulf create **submission.csv** in root directory
