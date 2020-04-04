@@ -62,6 +62,8 @@ and transferred it to Java via [JPMML](https://github.com/jpmml/jpmml-sklearn) l
 
 * Copy URL of repository -> Open IntellijIdea -> Get from Version Control -> Paste URL -> Open project
 * Open subfolder **src/main/java/evaluation/modelTrain** in Pycharm 
+* Configure python interpreter in PyCharm 
+[Troubleshooting](httpings://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html) 
 * Open terminal in PyCharm and install **requirements.txt**
 ```bash
    pip install -r requirements.txt
