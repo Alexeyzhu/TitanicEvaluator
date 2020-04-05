@@ -1,4 +1,4 @@
-# TitanicEvaluator
+# Titanic Evaluator
 
 This repository is a solution for [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic/overview) 
 competition. It is simple: use machine learning to create a model that predicts which passengers survived the Titanic shipwreck. 
@@ -56,7 +56,7 @@ and transferred it to Java via [JPMML](https://github.com/jpmml/jpmml-sklearn) l
 * [Python](https://www.python.org/downloads/)  3.6 and higher 
 * [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html)  8 and higher 
 * [PyCharm](https://www.jetbrains.com/pycharm/)
-* [IntellijIdea](https://www.jetbrains.com/idea/)
+* [Intellij Idea](https://www.jetbrains.com/idea/)
 
 #### Clone project and setup
 
